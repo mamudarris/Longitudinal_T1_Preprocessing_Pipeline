@@ -18,13 +18,13 @@ for arg in "$@"; do
 done
 
 echo "Running cross-sectional..."
-bash scripts/reconall_base.sh -s "$SUBJECTS_DIR" -l config/subjectlist.txt -j "$N_JOBS"
+bash step1_recon-all-cross.sh -s "$SUBJECTS_DIR" -l subjectlist.txt -j "$N_JOBS"
 
 echo "Running base..."
-bash scripts/reconall_base_template.sh -s "$SUBJECTS_DIR" -l config/subjectlist_base.txt -j "$N_JOBS"
+bash step2_recon-all-base-template.sh -s "$SUBJECTS_DIR" -l subjectlist_base.txt -j "$N_JOBS"
 
 echo "Running longitudinal..."
-bash scripts/reconall_long.sh -s "$SUBJECTS_DIR" -l config/sessionlist.txt -j "$N_JOBS"
+bash step3_recon-all-long.sh -s "$SUBJECTS_DIR" -l sessionlist.txt -j "$N_JOBS"
 
 # Optional step
 if [[ "$RUN_THALAMUS" -eq 1 ]]; then
