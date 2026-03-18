@@ -1,4 +1,23 @@
+# FreeSurfer outputs
+freesurfer/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
 *.tar
+
+# OS
+.DS_Store
+
+# Python (optional future use)
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
 *.tar.*
 *.jar
 *.exe
