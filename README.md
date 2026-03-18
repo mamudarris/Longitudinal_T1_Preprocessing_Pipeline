@@ -79,6 +79,20 @@ bash scripts/reconall_base.sh
 bash scripts/reconall_base_template.sh
 bash scripts/reconall_long.sh
 
+## Optional Steps
+
+### Thalamic segmentation
+
+Run the full pipeline including thalamic subnuclei segmentation:
+bash run_pipeline.sh --thalamus
+
+
+This step runs:
+
+segment_subregions thalamus --long-base
+
+
+and requires completed longitudinal outputs.
 
 ## Notes
 
