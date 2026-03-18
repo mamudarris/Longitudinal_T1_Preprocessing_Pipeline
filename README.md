@@ -44,7 +44,7 @@ sub-XX_ses-YY_T1w.nii.gz
 Clone the repository:
 
 
-git clone https://github.com/YOUR_USERNAME/reconall_pipeline.git
+git clone https://github.com/mamudarris/Longitudinal_T1_Preprocessing_Pipeline.git
 
 cd reconall_pipeline
 
@@ -90,4 +90,4 @@ bash scripts/reconall_long.sh
 
 If you use this pipeline, please cite:
 
-Mudarris, M. A. (2026). *Longitudinal array across participants and sessions of T1 structural preprocessing using BIDS formatted structure.*
+Mudarris, M. A. (2026). *Longitudinal array for preprocessing structural T1 across participants and sessions using BIDS formatted structure.*
