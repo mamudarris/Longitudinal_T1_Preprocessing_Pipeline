@@ -1,0 +1,12 @@
+data/sub-08/ses-01/anat/sub-08_ses-01_T1w.nii.gz
+data/sub-08/ses-02/anat/sub-08_ses-02_T1w.nii.gz
+data/sub-14/ses-01/anat/sub-14_ses-01_T1w.nii.gz
+data/sub-14/ses-02/anat/sub-14_ses-02_T1w.nii.gz
+data/sub-34/ses-01/anat/sub-34_ses-01_T1w.nii.gz
+data/sub-34/ses-02/anat/sub-34_ses-02_T1w.nii.gz
+data/sub-38/ses-01/anat/sub-38_ses-01_T1w.nii.gz
+data/sub-38/ses-02/anat/sub-38_ses-02_T1w.nii.gz
+data/sub-39/ses-01/anat/sub-39_ses-01_T1w.nii.gz
+data/sub-39/ses-02/anat/sub-39_ses-02_T1w.nii.gz
+data/sub-40/ses-01/anat/sub-40_ses-01_T1w.nii.gz
+data/sub-40/ses-02/anat/sub-40_ses-02_T1w.nii.gz

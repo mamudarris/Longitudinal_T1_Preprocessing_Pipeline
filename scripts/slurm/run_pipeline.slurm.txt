@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH --job-name=recon_pipeline
+#SBATCH --time=7-00:00:00
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=4G
+
+# Go to repo root
+cd $SLURM_SUBMIT_DIR
+
+# Load environment
+source scripts/setup_env.sh
+
+# Run full pipeline
+bash run_pipeline.sh
