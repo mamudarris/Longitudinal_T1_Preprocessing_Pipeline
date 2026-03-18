@@ -12,20 +12,20 @@ Bash-based pipeline for running FreeSurfer recon-all in a longitudinal framework
 
 ```
 .
+├── step1_recon-all-cross.sh # cross-sectional recon-all
+├── step2_recon-all-base-template.sh # base creation
+├── step3_recon-all-long.sh # longitudinal processing
+├── run_pipeline.sh # runs full pipeline sequentially
+├── generate_subjectlist.sh # generates input lists
+├── Upload_Modules.sh # optional environment setup
+├── config.sh # configuration file
+├── subjectlist.txt # example input list
 ├── scripts/
-│   ├── reconall_base.sh
-│   ├── reconall_base_template.sh
-│   ├── reconall_long.sh
-│   ├── setup_env.sh
-│   └── generate_lists.sh
-├── config/
-│   ├── subjectlist.txt
-│   ├── subjectlist_base.txt
-│   └── sessionlist.txt
-├── freesurfer/        # output directory (ignored by git)
-├── logs/              # optional logs (ignored by git)
-├── run_pipeline.sh
-└── README.md
+│ └── slurm/
+│ └── run_pipeline.slurm # SLURM wrapper
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ## Data Structure
