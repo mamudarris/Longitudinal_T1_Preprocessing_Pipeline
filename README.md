@@ -1,6 +1,6 @@
 # Recon-all Longitudinal Pipeline
 
-Bash-based pipeline for running FreeSurfer recon-all in a longitudinal framework using a BIDS-like directory structure.
+Bash-based pipeline for running FreeSurfer recon-all in a longitudinal framework using a BIDS directory structure.
 
 ## Requirements
 
@@ -46,7 +46,7 @@ Clone the repository:
 
 git clone https://github.com/mamudarris/Longitudinal_T1_Preprocessing_Pipeline.git
 
-cd reconall_pipeline
+cd Longitudinal_T1_Preprocessing_Pipeline
 
 
 ## Prepare Input Lists
@@ -90,4 +90,4 @@ bash scripts/reconall_long.sh
 
 If you use this pipeline, please cite:
 
-Mudarris, M. A. (2026). *Longitudinal array for preprocessing structural T1 across participants and sessions using BIDS formatted structure.*
+*Mudarris, M. A. (2026). A reproducible pipeline for longitudinal FreeSurfer recon-all processing using BIDS-formatted structure.*
