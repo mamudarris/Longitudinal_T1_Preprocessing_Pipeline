@@ -10,22 +10,23 @@ Bash-based pipeline for running FreeSurfer recon-all in a longitudinal framework
 
 ## Repository Structure
 
+```
 .
 ├── scripts/
-│ ├── reconall_base.sh
-│ ├── reconall_base_template.sh
-│ ├── reconall_long.sh
-│ ├── setup_env.sh
-│ └── generate_lists.sh
+│   ├── reconall_base.sh
+│   ├── reconall_base_template.sh
+│   ├── reconall_long.sh
+│   ├── setup_env.sh
+│   └── generate_lists.sh
 ├── config/
-│ ├── subjectlist.txt
-│ ├── subjectlist_base.txt
-│ └── sessionlist.txt
-├── freesurfer/ # output directory (ignored by git)
-├── logs/ # optional logs (ignored by git)
+│   ├── subjectlist.txt
+│   ├── subjectlist_base.txt
+│   └── sessionlist.txt
+├── freesurfer/        # output directory (ignored by git)
+├── logs/              # optional logs (ignored by git)
 ├── run_pipeline.sh
 └── README.md
-
+```
 
 ## Data Structure
 
